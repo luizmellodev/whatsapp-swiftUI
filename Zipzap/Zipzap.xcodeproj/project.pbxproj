@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		387DF55D26BB5F5700573FC8 /* ZipzapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387DF55C26BB5F5700573FC8 /* ZipzapApp.swift */; };
+		387DF55F26BB5F5700573FC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387DF55E26BB5F5700573FC8 /* ContentView.swift */; };
+		387DF56126BB5F5A00573FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387DF56026BB5F5A00573FC8 /* Assets.xcassets */; };
+		387DF56426BB5F5A00573FC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387DF56326BB5F5A00573FC8 /* Preview Assets.xcassets */; };
+		387DF56F26BB5F5A00573FC8 /* ZipzapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387DF56E26BB5F5A00573FC8 /* ZipzapTests.swift */; };
+		387DF57A26BB5F5A00573FC8 /* ZipzapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387DF57926BB5F5A00573FC8 /* ZipzapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		387DF56B26BB5F5A00573FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387DF55126BB5F5600573FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387DF55826BB5F5600573FC8;
+			remoteInfo = Zipzap;
+		};
+		387DF57626BB5F5A00573FC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 387DF55126BB5F5600573FC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 387DF55826BB5F5600573FC8;
+			remoteInfo = Zipzap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		387DF55926BB5F5700573FC8 /* Zipzap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zipzap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		387DF55C26BB5F5700573FC8 /* ZipzapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipzapApp.swift; sourceTree = "<group>"; };
+		387DF55E26BB5F5700573FC8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		387DF56026BB5F5A00573FC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		387DF56326BB5F5A00573FC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		387DF56526BB5F5A00573FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387DF56A26BB5F5A00573FC8 /* ZipzapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZipzapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		387DF56E26BB5F5A00573FC8 /* ZipzapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipzapTests.swift; sourceTree = "<group>"; };
+		387DF57026BB5F5A00573FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387DF57526BB5F5A00573FC8 /* ZipzapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZipzapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		387DF57926BB5F5A00573FC8 /* ZipzapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipzapUITests.swift; sourceTree = "<group>"; };
+		387DF57B26BB5F5A00573FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		387DF55626BB5F5600573FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387DF56726BB5F5A00573FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387DF57226BB5F5A00573FC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		387DF55026BB5F5600573FC8 = {
+			isa = PBXGroup;
+			children = (
+				387DF55B26BB5F5700573FC8 /* Zipzap */,
+				387DF56D26BB5F5A00573FC8 /* ZipzapTests */,
+				387DF57826BB5F5A00573FC8 /* ZipzapUITests */,
+				387DF55A26BB5F5700573FC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		387DF55A26BB5F5700573FC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				387DF55926BB5F5700573FC8 /* Zipzap.app */,
+				387DF56A26BB5F5A00573FC8 /* ZipzapTests.xctest */,
+				387DF57526BB5F5A00573FC8 /* ZipzapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		387DF55B26BB5F5700573FC8 /* Zipzap */ = {
+			isa = PBXGroup;
+			children = (
+				387DF55C26BB5F5700573FC8 /* ZipzapApp.swift */,
+				387DF55E26BB5F5700573FC8 /* ContentView.swift */,
+				387DF56026BB5F5A00573FC8 /* Assets.xcassets */,
+				387DF56526BB5F5A00573FC8 /* Info.plist */,
+				387DF56226BB5F5A00573FC8 /* Preview Content */,
+			);
+			path = Zipzap;
+			sourceTree = "<group>";
+		};
+		387DF56226BB5F5A00573FC8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				387DF56326BB5F5A00573FC8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		387DF56D26BB5F5A00573FC8 /* ZipzapTests */ = {
+			isa = PBXGroup;
+			children = (
+				387DF56E26BB5F5A00573FC8 /* ZipzapTests.swift */,
+				387DF57026BB5F5A00573FC8 /* Info.plist */,
+			);
+			path = ZipzapTests;
+			sourceTree = "<group>";
+		};
+		387DF57826BB5F5A00573FC8 /* ZipzapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				387DF57926BB5F5A00573FC8 /* ZipzapUITests.swift */,
+				387DF57B26BB5F5A00573FC8 /* Info.plist */,
+			);
+			path = ZipzapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		387DF55826BB5F5600573FC8 /* Zipzap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387DF57E26BB5F5A00573FC8 /* Build configuration list for PBXNativeTarget "Zipzap" */;
+			buildPhases = (
+				387DF55526BB5F5600573FC8 /* Sources */,
+				387DF55626BB5F5600573FC8 /* Frameworks */,
+				387DF55726BB5F5600573FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zipzap;
+			productName = Zipzap;
+			productReference = 387DF55926BB5F5700573FC8 /* Zipzap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		387DF56926BB5F5A00573FC8 /* ZipzapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387DF58126BB5F5A00573FC8 /* Build configuration list for PBXNativeTarget "ZipzapTests" */;
+			buildPhases = (
+				387DF56626BB5F5A00573FC8 /* Sources */,
+				387DF56726BB5F5A00573FC8 /* Frameworks */,
+				387DF56826BB5F5A00573FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387DF56C26BB5F5A00573FC8 /* PBXTargetDependency */,
+			);
+			name = ZipzapTests;
+			productName = ZipzapTests;
+			productReference = 387DF56A26BB5F5A00573FC8 /* ZipzapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		387DF57426BB5F5A00573FC8 /* ZipzapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387DF58426BB5F5A00573FC8 /* Build configuration list for PBXNativeTarget "ZipzapUITests" */;
+			buildPhases = (
+				387DF57126BB5F5A00573FC8 /* Sources */,
+				387DF57226BB5F5A00573FC8 /* Frameworks */,
+				387DF57326BB5F5A00573FC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387DF57726BB5F5A00573FC8 /* PBXTargetDependency */,
+			);
+			name = ZipzapUITests;
+			productName = ZipzapUITests;
+			productReference = 387DF57526BB5F5A00573FC8 /* ZipzapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		387DF55126BB5F5600573FC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					387DF55826BB5F5600573FC8 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					387DF56926BB5F5A00573FC8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 387DF55826BB5F5600573FC8;
+					};
+					387DF57426BB5F5A00573FC8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 387DF55826BB5F5600573FC8;
+					};
+				};
+			};
+			buildConfigurationList = 387DF55426BB5F5600573FC8 /* Build configuration list for PBXProject "Zipzap" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 387DF55026BB5F5600573FC8;
+			productRefGroup = 387DF55A26BB5F5700573FC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				387DF55826BB5F5600573FC8 /* Zipzap */,
+				387DF56926BB5F5A00573FC8 /* ZipzapTests */,
+				387DF57426BB5F5A00573FC8 /* ZipzapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		387DF55726BB5F5600573FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387DF56426BB5F5A00573FC8 /* Preview Assets.xcassets in Resources */,
+				387DF56126BB5F5A00573FC8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387DF56826BB5F5A00573FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387DF57326BB5F5A00573FC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		387DF55526BB5F5600573FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387DF55F26BB5F5700573FC8 /* ContentView.swift in Sources */,
+				387DF55D26BB5F5700573FC8 /* ZipzapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387DF56626BB5F5A00573FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387DF56F26BB5F5A00573FC8 /* ZipzapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		387DF57126BB5F5A00573FC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				387DF57A26BB5F5A00573FC8 /* ZipzapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		387DF56C26BB5F5A00573FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387DF55826BB5F5600573FC8 /* Zipzap */;
+			targetProxy = 387DF56B26BB5F5A00573FC8 /* PBXContainerItemProxy */;
+		};
+		387DF57726BB5F5A00573FC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 387DF55826BB5F5600573FC8 /* Zipzap */;
+			targetProxy = 387DF57626BB5F5A00573FC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		387DF57C26BB5F5A00573FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		387DF57D26BB5F5A00573FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		387DF57F26BB5F5A00573FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Zipzap/Preview Content\"";
+				DEVELOPMENT_TEAM = YM283LC5H4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zipzap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "luiz-mello.Zipzap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		387DF58026BB5F5A00573FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Zipzap/Preview Content\"";
+				DEVELOPMENT_TEAM = YM283LC5H4;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Zipzap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "luiz-mello.Zipzap";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		387DF58226BB5F5A00573FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM283LC5H4;
+				INFOPLIST_FILE = ZipzapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "luiz-mello.ZipzapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zipzap.app/Zipzap";
+			};
+			name = Debug;
+		};
+		387DF58326BB5F5A00573FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM283LC5H4;
+				INFOPLIST_FILE = ZipzapTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "luiz-mello.ZipzapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zipzap.app/Zipzap";
+			};
+			name = Release;
+		};
+		387DF58526BB5F5A00573FC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM283LC5H4;
+				INFOPLIST_FILE = ZipzapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "luiz-mello.ZipzapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zipzap;
+			};
+			name = Debug;
+		};
+		387DF58626BB5F5A00573FC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YM283LC5H4;
+				INFOPLIST_FILE = ZipzapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "luiz-mello.ZipzapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zipzap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		387DF55426BB5F5600573FC8 /* Build configuration list for PBXProject "Zipzap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387DF57C26BB5F5A00573FC8 /* Debug */,
+				387DF57D26BB5F5A00573FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387DF57E26BB5F5A00573FC8 /* Build configuration list for PBXNativeTarget "Zipzap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387DF57F26BB5F5A00573FC8 /* Debug */,
+				387DF58026BB5F5A00573FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387DF58126BB5F5A00573FC8 /* Build configuration list for PBXNativeTarget "ZipzapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387DF58226BB5F5A00573FC8 /* Debug */,
+				387DF58326BB5F5A00573FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		387DF58426BB5F5A00573FC8 /* Build configuration list for PBXNativeTarget "ZipzapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				387DF58526BB5F5A00573FC8 /* Debug */,
+				387DF58626BB5F5A00573FC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 387DF55126BB5F5600573FC8 /* Project object */;
+}
